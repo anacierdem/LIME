@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{d31b9ef3-aa05-400f-ae9b-5c8d1374efa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{cc235091-a7e9-4411-9e13-627e114a28be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{9bf2f619-84f9-4fb5-94be-80cfd2b07e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{b25faf70-e73c-47b0-b074-588295a3d992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{1fa159d8-47dd-401b-99d0-d0e2c6e58d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{a4608381-68c5-4386-87c7-283c57baa8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fonts">
+      <UniqueIdentifier>{b5e96948-0779-4d19-a012-4c173e0aee55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shader">
+      <UniqueIdentifier>{7723d643-93d4-4948-ac0c-95b99208e52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{f839a34d-8340-4346-abb3-a30a8c17a2a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\html">
+      <UniqueIdentifier>{5a85dc89-ea7a-4cad-8299-0bb0ff90a86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\other">
+      <UniqueIdentifier>{6e77c24c-e857-4c15-a6a6-bac1f03c8c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{380e7f29-0761-4c45-aae6-51e8cfe672d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{9904b39f-f205-40ff-8d17-dd6fc59986af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\html\js">
+      <UniqueIdentifier>{5278e019-fc83-483c-8279-35c1c87362c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application">
+      <UniqueIdentifier>{8445491b-18fd-453b-95b8-336e0ddde5ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{3648a5b5-a572-46c5-a82a-39479e62cf42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer\MiniMapManager.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer\PaletteManager.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer\Player.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer\TileMap.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UI\CustomSurface.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UI\CustomSurfaceFactory.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UI\CustomSource.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Misc\Util.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\CoreEngine.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\EngineManager.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer\GameRenderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\CustomHandler.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\EngineComponent.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer\GameObjectManager.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\GameObjectComponent.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Core\GameObject.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer\Collider.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer\Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer\Controller.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UI\CustomListener.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Application\Application.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\globals.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer\MiniMapManager.hpp">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer\PaletteManager.hpp">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer\Player.hpp">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer\TileMap.hpp">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Misc\VectorExtension.hpp">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UI\CustomSurface.hpp">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UI\CustomSurfaceFactory.hpp">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UI\CustomSource.hpp">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Misc\Util.hpp">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\CoreEngine.hpp">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\EngineManager.hpp">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer\GameRenderer.hpp">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\CustomHandler.hpp">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\EngineComponent.hpp">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer\GameObjectManager.hpp">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\GameObjectComponent.hpp">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Core\GameObject.hpp">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer\Renderer.hpp">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer\Collider.hpp">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Renderer\Controller.hpp">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Misc\SaveMethods.hpp">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UI\CustomListener.hpp">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Application\application.hpp">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\other\tileMap.dmap">
+      <Filter>Resource Files\other</Filter>
+    </None>
+    <None Include="..\Resources\other\tileMap1.dmap">
+      <Filter>Resource Files\other</Filter>
+    </None>
+    <None Include="..\Resources\html\index.html">
+      <Filter>Resource Files\html</Filter>
+    </None>
+    <None Include="..\Resources\fonts\open-sans-v13-latin-regular.svg">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\Resources\fonts\open-sans-v13-latin-regular.woff">
+      <Filter>Resource Files\fonts</Filter>
+    </None>
+    <None Include="..\Resources\shader\fragment.frag">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="..\Resources\shader\invertRG.frag">
+      <Filter>Resource Files\shader</Filter>
+    </None>
+    <None Include="..\Resources\html\js\main.js">
+      <Filter>Resource Files\html\js</Filter>
+    </None>
+    <None Include="..\Resources\html\js\svg.js">
+      <Filter>Resource Files\html\js</Filter>
+    </None>
+    <None Include="..\Resources\html\js\polyk.js">
+      <Filter>Resource Files\html\js</Filter>
+    </None>
+    <None Include="..\Resources\html\js\paletteManager.js">
+      <Filter>Resource Files\html\js</Filter>
+    </None>
+    <None Include="..\Resources\html\js\objectManager.js">
+      <Filter>Resource Files\html\js</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\Inconsolata-Regular.ttf">
+      <Filter>Resource Files\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\textures\1.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\Resources\textures\2.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\Resources\textures\3.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\Resources\textures\4.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\Resources\textures\5.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\Resources\textures\6.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\Resources\textures\iso.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\Resources\textures\iso2.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\Resources\textures\iso3.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\Resources\textures\isoChar.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="desertEditor.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

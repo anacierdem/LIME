@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r9">
+    <folder id="0">
+        <file id="0" name="2.png" width="33" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="iso.png" width="256" height="384" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="6.png" width="33" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="5.png" width="36" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="iso2.png" width="1280" height="2048" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="4.png" width="33" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="3.png" width="33" height="43" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="iso3.png" width="1024" height="1129" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="isoChar.png" width="720" height="140" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="1.png" width="33" height="43" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <obj_info name="bone_000" type="bone" w="70.0071" h="10"/>
+        <obj_info name="bone_001" type="bone" w="100.419" h="10"/>
+        <animation id="0" name="NewAnimation" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="1" time="997">
+                    <bone_ref id="0" timeline="1" key="0"/>
+                    <bone_ref id="1" parent="0" timeline="2" key="0"/>
+                    <object_ref id="0" parent="1" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="2">
+                <key id="0">
+                    <object folder="0" file="9" x="96.834948" y="76.20996" angle="359.352495" scale_x="0.917924" scale_y="0.621301"/>
+                </key>
+                <key id="1">
+                    <object folder="0" file="0" x="-6" y="132"/>
+                </key>
+                <key id="2" time="997">
+                    <object folder="0" file="0" x="-84.823837" y="61.628323" pivot_x="0" pivot_y="1" angle="7.58202" scale_x="2.02118" scale_y="3.531955"/>
+                </key>
+                <key id="3" time="997" spin="-1">
+                    <object folder="0" file="9" x="47.075856" y="4.17243" pivot_x="0.49847" pivot_y="0.529815" angle="6.934515" scale_x="1.85529" scale_y="2.194407"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="0" name="bone_000" object_type="bone">
+                <key id="0" time="997" spin="0">
+                    <bone x="-178" y="52" angle="322.364228" scale_x="1.247408" scale_y="2.841435"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="1" name="bone_001" object_type="bone">
+                <key id="0" time="997" spin="0">
+                    <bone x="84.909595" y="0.272349" angle="38.283277" scale_x="0.873342" scale_y="0.566448"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

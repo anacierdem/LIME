@@ -1,0 +1,7 @@
+Awesomium 1.7.5 May 5 2015
+
+    Please visit: http://wiki.awesomium.com/changelogs/whats-new-1-7-5.html
+
+Awesomium.NET 1.7.5 May 5 2015
+
+    Please visit: http://wiki.awesomium.net/changelogs/whats-new-1-7-5.html

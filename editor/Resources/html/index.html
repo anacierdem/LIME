@@ -1,0 +1,59 @@
+<html>
+<head>
+<style>
+@font-face {
+	font-family: 'TestFont';
+	src: url('../fonts/open-sans-v13-latin-regular.svg') format('svg');
+}
+
+@font-face {
+	font-family: 'TestFont2';
+	src: url('../fonts/open-sans-v13-latin-regular.woff') format('woff');
+}
+
+* {
+	font-family:'TestFont';
+	font-size:16px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+
+::-webkit-scrollbar {
+	width: 20px;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+	background-color: #666666;
+}
+
+.center-item {
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.handle:hover {
+	fill: red;
+	cursor: pointer;
+}
+
+</style>
+</head>
+<body style="background-color:transparent;">
+
+	<div id="tilePalette" style="width:296px;height:100%;overflow-y:scroll;background-color: rgba(0,0,0,1);left:0px;top:0px;position:fixed;overflow-x:hidden;"></div>
+	<div id="objectEditor" style="position: fixed; right:0; bottom: 0; width:500px; height:500px; background-color: rgba(0,0,0,0.2);"></div>
+
+	<script type="text/javascript" src="js/polyk.js"></script>
+	<script type="text/javascript" src="js/svg.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/paletteManager.js"></script>
+	<script type="text/javascript" src="js/objectManager.js"></script>
+</body>
+</html>
