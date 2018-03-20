@@ -12,26 +12,17 @@ set(SOURCE_FILES
         src/Renderer/PaletteManager.cpp
         src/globals.cpp
         src/Renderer/MiniMapManager.cpp
-        src/Client/Client.cpp
-        src/Network/ConnectionManager.cpp
-        src/Network/Decoder.cpp
-        src/Network/Encoder.cpp
-        src/Network/PackageType.cpp
-        src/Network/UdpClient.cpp
+        src/Application/Application.cpp
         src/UI/CustomSurface.cpp
         src/UI/CustomListener.cpp
         src/UI/CustomSurfaceFactory.cpp
         src/Misc/Util.cpp
-        src/Network/typedefs.hpp
         src/Core/CoreEngine.cpp
         src/Core/EngineManager.cpp
         src/Core/CustomHandler.cpp
         src/Core/EngineComponent.cpp
         src/Core/GameObject.cpp
         src/Core/GameObjectComponent.cpp
-        src/GameManager/Manager.cpp
-        src/Network/PositionReceiver.cpp
-        src/Network/PositionSender.cpp
         src/Renderer/GameObjectManager.cpp
         src/Renderer/Renderer.cpp
         src/Renderer/Controller.cpp
