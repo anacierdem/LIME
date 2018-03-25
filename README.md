@@ -10,7 +10,7 @@ The project is based on cross platform multimedia library SFML and browser rende
 
 One downside of the Awesomium framework at the time was that it is 32 bit only so I needed to re-compile SFML 2.4.0 (which does not have 32 bit OSX binaries for this specific version - as they dropped 32 bit support on OSX at some point). These files are included with the project to be copied to /Library/Frameworks on OSX. On Windows, SFML 2.4.1 is supported. The Visual Studio 2015 solution in the windows folder expects that `AWE_DIR` env. variable pointing to the Awesomium root and `SFML_ROOT` env. variable to point to the SFML root.
 
-In principle, there are two main component types namely `GameObjectComponent` and `EngineComponent`. These are designed such that they can be attached to `GameObject`s and `EngineManager` Respectively. Each `EngineComponent` can communicate through a custom callback mechanism `broadcastMessage` with each other sharing arbitrarily typed messages. They get filtered based on type and invoke their handlers. When passing messages, it is important to note that only childs should send messages upwards whereas parent object should invoke respective APIs in a mediator pattern.
+In principle, there are two main component types namely `GameObjectComponent` and `EngineComponent`. These are designed such that they can be attached to `GameObject`s and `EngineManager` Respectively. Each `EngineComponent` can communicate through a custom callback mechanism `broadcastMessage` with each other sharing arbitrarily typed messages. They get filtered based on type and invoke their handlers. When passing messages, it is important to note that only childs should send messages upwards whereas parent object should invoke respective APIs.
 
 ## Building
 
